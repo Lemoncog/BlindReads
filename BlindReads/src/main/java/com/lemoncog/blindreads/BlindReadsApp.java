@@ -17,7 +17,7 @@ public class BlindReadsApp extends Application
     {
         super.onCreate();
 
-       // mInjector = Guice.createInjector(new ApiModule());
+       mInjector = Guice.createInjector(new ApiModule());
     }
 
     public Injector getInjector()

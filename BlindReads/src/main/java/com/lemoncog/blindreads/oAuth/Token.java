@@ -12,15 +12,20 @@ public class Token implements IToken {
 
     public Token(String tokenAndSecret)
     {
-        mToken = extractToken(tokenAndSecret);
-        mTokenSecret = extractTokenSecret(tokenAndSecret);
+        this(extractToken(tokenAndSecret), extractTokenSecret(tokenAndSecret));
+    }
+
+    public Token(String token, String secret)
+    {
+        mToken = token;
+        mTokenSecret = secret;
     }
 
     public Token()
     {
     }
 
-    private String extractToken(String tokenAndSecret)
+    public static String extractToken(String tokenAndSecret)
     {
         String value = extractValueAfterKey(KEY_OAUTH_TOKEN, tokenAndSecret);
 
@@ -28,11 +33,11 @@ public class Token implements IToken {
         return  value.substring(0, endIndex);
     }
 
-    private String extractTokenSecret(String tokenAndSecret) {
+    public static String extractTokenSecret(String tokenAndSecret) {
         return extractValueAfterKey(KEY_OAUTH_TOKEN_SECRET, tokenAndSecret);
     }
 
-    private String extractValueAfterKey(String key, String string)
+    public static String extractValueAfterKey(String key, String string)
     {
         int keyIndex = string.indexOf(key);
 

@@ -7,6 +7,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import com.lemoncog.blindreads.controllers.ILoginCallBack;
+import com.lemoncog.blindreads.controllers.LoginController;
+import com.lemoncog.blindreads.engine.IUserSupplier;
+import com.lemoncog.blindreads.goodreads.GoodReadsOAuthConfig;
+import com.lemoncog.blindreads.oAuth.OAuthConfig;
+
 public class Home extends FragmentActivity {
 
     @Override
@@ -14,6 +20,7 @@ public class Home extends FragmentActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_home);
+
 
         if (savedInstanceState == null)
         {

@@ -7,6 +7,5 @@ public interface IToken
 {
     public String getToken();
     public String getTokenSecret();
-
     boolean hasTokenAndSecret();
 }

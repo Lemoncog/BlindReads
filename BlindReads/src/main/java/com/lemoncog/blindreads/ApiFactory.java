@@ -1,6 +1,10 @@
 package com.lemoncog.blindreads;
 
 
+import com.google.inject.Singleton;
+import com.lemoncog.blindreads.engine.IUserSupplier;
+import com.lemoncog.blindreads.engine.MemoryUserSupplier;
+import com.lemoncog.blindreads.models.IUser;
 import com.lemoncog.blindreads.oAuth.IToken;
 import com.lemoncog.blindreads.oAuth.Token;
 
@@ -21,12 +25,7 @@ public class ApiFactory {
     private static final String PRODUCTION_API_URL = "https://www.goodreads.com";
     private static String API_KEY = "uyFUveTbOQWKWgszgLL2xQ";
     private static String API_SECRET = "8wos2RNrsBj5ItGLQ5yHKA7NI7wMF5lhtmCJFI6ic";
-    private static IToken API_TOKEN = new Token();
-
-    public static IToken provideAPIToken()
-    {
-        return API_TOKEN;
-    }
+    //private static IToken API_TOKEN = new Token();
 
     public static String provideAPIKey(){
         return API_KEY;
@@ -53,16 +52,11 @@ public class ApiFactory {
 
     //Shitty Singleton(wut) I will regret.
     private static RetrofitHttpOAuthConsumer mOAuthConsumer;
-    private static RetrofitHttpOAuthConsumer provideOAuthConsumer()
+    public static RetrofitHttpOAuthConsumer provideOAuthConsumer()
     {
         if(mOAuthConsumer == null)
         {
             mOAuthConsumer =  new RetrofitHttpOAuthConsumer(provideAPIKey(), provideAPISecret());
-        }
-
-        if(API_TOKEN.hasTokenAndSecret())
-        {
-            mOAuthConsumer.setTokenWithSecret(API_TOKEN.getToken(), API_TOKEN.getTokenSecret());
         }
 
         return mOAuthConsumer;

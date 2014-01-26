@@ -13,4 +13,10 @@ import retrofit.http.Query;
 public interface OAuthService {
     @GET("/oauth/request_token")
     Response fetchRequestToken();
+
+    @GET("/api/auth_user")
+    Response authUser();
+
+    @GET("/friend/requests.xml")
+    Response getFriendRequests();
 }

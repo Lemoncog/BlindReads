@@ -1,5 +1,6 @@
 package com.lemoncog.blindreads.test.factory;
 
+import com.lemoncog.blindreads.controllers.LoginController;
 import com.lemoncog.blindreads.models.IUser;
 import com.lemoncog.blindreads.models.User;
 
