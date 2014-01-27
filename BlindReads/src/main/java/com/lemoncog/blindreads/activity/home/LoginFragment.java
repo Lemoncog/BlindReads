@@ -1,6 +1,5 @@
-package com.lemoncog.blindreads;
+package com.lemoncog.blindreads.activity.home;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,17 +7,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.ProgressBar;
 
 import com.google.inject.Injector;
-import com.lemoncog.blindreads.controllers.BookController;
+import com.lemoncog.blindreads.ApiFactory;
+import com.lemoncog.blindreads.BlindReadsApp;
+import com.lemoncog.blindreads.R;
 import com.lemoncog.blindreads.controllers.ILoginCallBack;
 import com.lemoncog.blindreads.controllers.LoginController;
 import com.lemoncog.blindreads.engine.IUserSupplier;
-import com.lemoncog.blindreads.goodreads.GoodReadsOAuthConfig;
 import com.lemoncog.blindreads.goodreads.OAuthService;
-import com.lemoncog.blindreads.next.NextBook;
 
 import com.lemoncog.blindreads.models.User;
 import com.lemoncog.blindreads.oAuth.OAuthConfig;
@@ -26,24 +24,22 @@ import com.lemoncog.blindreads.oAuth.OAuthConfig;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class HomeFragment extends Fragment implements ILoginCallBack {
+public class LoginFragment extends Fragment implements ILoginCallBack {
 
     private LoginController mLoginController;
     private User mCurrentUser = new User();
 
     private ProgressBar mLoadingSpinner;
-    private Button mNextBook;
 
     private WebView mHiddenWebView;
     private WebViewClient mWebViewClient;
 
-    private View.OnClickListener nextClicked = new View.OnClickListener() {
-        @Override
-        public void onClick(View view)
-        {
-            startActivity(new Intent(getActivity(), NextBook.class));
-        }
-    };
+    private LoginFragmentListener mFragmentListener;
+
+    public LoginFragment(LoginFragmentListener fragmentListener)
+    {
+        mFragmentListener = fragmentListener;
+    }
 
     @Override
     public void onStart() {
@@ -51,15 +47,16 @@ public class HomeFragment extends Fragment implements ILoginCallBack {
 
         createLoginController();
 
-        mLoadingSpinner = (ProgressBar) getView().findViewById(R.id.home_progress_bar);
-        mNextBook = (Button) getView().findViewById(R.id.home_next_book);
+        mLoadingSpinner = (ProgressBar) getView().findViewById(R.id.login_progress_bar);
 
         createWebView();
 
-        mNextBook.setOnClickListener(nextClicked);
-
         showLoadingBar();
         loginOrUpdate();
+    }
+
+    public LoginFragmentListener getFragmentListener() {
+        return mFragmentListener;
     }
 
     private void createWebView()
@@ -89,7 +86,7 @@ public class HomeFragment extends Fragment implements ILoginCallBack {
                 }
             };
 
-            mHiddenWebView = (WebView) getView().findViewById(R.id.home_full_webview);
+            mHiddenWebView = (WebView) getView().findViewById(R.id.login_full_webview);
             mHiddenWebView.setWebViewClient(mWebViewClient);
         }
 
@@ -100,7 +97,7 @@ public class HomeFragment extends Fragment implements ILoginCallBack {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return inflater.inflate(R.layout.fragment_login, container, false);
     }
 
     private void createLoginController()
@@ -148,5 +145,11 @@ public class HomeFragment extends Fragment implements ILoginCallBack {
                 mHiddenWebView.loadUrl(url);
             }
         });
+    }
+
+    @Override
+    public void userLoggedIn() {
+        //Swap out the login fragment, use home fragment for real!
+        getFragmentListener().loginComplete();
     }
 }

@@ -5,4 +5,6 @@ package com.lemoncog.blindreads.controllers;
  */
 public interface ILoginCallBack {
     void requestWebView(String url);
+
+    void userLoggedIn();
 }

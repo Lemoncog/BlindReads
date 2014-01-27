@@ -1,4 +1,4 @@
-package com.lemoncog.blindreads.next;
+package com.lemoncog.blindreads.activity.home.next;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

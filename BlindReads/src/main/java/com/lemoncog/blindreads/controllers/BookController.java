@@ -3,10 +3,10 @@ package com.lemoncog.blindreads.controllers;
 import android.util.Log;
 
 import com.lemoncog.blindreads.ApiFactory;
+import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.GoodReadsService;
 import com.lemoncog.blindreads.models.BookList;
 import com.lemoncog.blindreads.models.IUser;
-import com.lemoncog.blindreads.models.User;
 
 import retrofit.RestAdapter;
 /**
@@ -15,9 +15,10 @@ import retrofit.RestAdapter;
 public class BookController
 {
     private RestAdapter mRestAdapter;
+    private IUserSupplier mUserSupplier;
     String apiKey = ApiFactory.provideAPIKey();
 
-    public BookController(RestAdapter restAdapter)
+    public BookController(IUserSupplier userSupplier, RestAdapter restAdapter)
     {
         mRestAdapter = restAdapter;
     }
@@ -26,7 +27,7 @@ public class BookController
     {
         GoodReadsService service = mRestAdapter.create(GoodReadsService.class);
 
-        BookList books = service.BookList(user.getUserID(), apiKey, "2");
+        BookList books = service.usersBookList(user.getUserID(), apiKey, "2", "currently-reading");
 
         Log.v("HAHAHA MADNESS", books.getReviews().get(0).getBook().getTitle());
 

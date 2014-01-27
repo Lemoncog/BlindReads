@@ -11,6 +11,8 @@ import com.lemoncog.blindreads.controllers.ILoginCallBack;
 import com.lemoncog.blindreads.controllers.LoginController;
 import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.OAuthService;
+import com.lemoncog.blindreads.models.IUser;
+import com.lemoncog.blindreads.models.User;
 import com.lemoncog.blindreads.oAuth.IToken;
 import com.lemoncog.blindreads.oAuth.OAuthConfig;
 import com.lemoncog.blindreads.oAuth.Token;
@@ -19,6 +21,7 @@ import com.lemoncog.blindreads.test.factory.MockFactory;
 import junit.framework.Assert;
 
 import org.mockito.internal.matchers.Any;
+import org.mockito.internal.matchers.Null;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
@@ -27,6 +30,8 @@ import roboguice.activity.RoboActivity;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Matchers.isNull;
 import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
@@ -73,7 +78,16 @@ public class GoodReadsLoginTest extends ActivityTestCase {
     public void testOAuthAuthorizeURL()
     {
         ILoginCallBack loginCallBack = mock(ILoginCallBack.class);
+
+        IToken token = mock(IToken.class);
+        when(token.getToken()).thenReturn("tokenYo");
+
+        IUser user = mock(IUser.class);
+        when(user.getToken()).thenReturn(token);
+
         IUserSupplier userSupplier = mock(IUserSupplier.class);
+        when(userSupplier.getUser()).thenReturn(user);
+
         OAuthConfig oAuthConfig = mock(OAuthConfig.class);
         when(oAuthConfig.getAuthorizeURL(anyString(), anyString())).thenReturn("www.authorizeuser.com");
 
@@ -82,5 +96,22 @@ public class GoodReadsLoginTest extends ActivityTestCase {
         loginController.authorizeUser();
 
         verify(loginCallBack).requestWebView("www.authorizeuser.com");
+    }
+
+    public void testLogoutUserController()
+    {
+        IUser user = mock(IUser.class);
+
+        ILoginCallBack loginCallBack = mock(ILoginCallBack.class);
+        IUserSupplier userSupplier = mock(IUserSupplier.class);
+        when(userSupplier.getUser()).thenReturn(user);
+
+        OAuthConfig oAuthConfig = mock(OAuthConfig.class);
+        LoginController loginController = new LoginController(loginCallBack, createOAuthService(), userSupplier, oAuthConfig);
+
+        loginController.logOut();
+
+        verify(user).setLoggedIn(false);
+        verify(user).setToken(null);
     }
 }

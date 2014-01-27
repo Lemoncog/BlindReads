@@ -1,19 +1,13 @@
-package com.lemoncog.blindreads;
+package com.lemoncog.blindreads.activity.home;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ProgressBar;
 
-import com.lemoncog.blindreads.controllers.ILoginCallBack;
-import com.lemoncog.blindreads.controllers.LoginController;
-import com.lemoncog.blindreads.engine.IUserSupplier;
-import com.lemoncog.blindreads.goodreads.GoodReadsOAuthConfig;
-import com.lemoncog.blindreads.oAuth.OAuthConfig;
+import com.lemoncog.blindreads.R;
 
-public class Home extends FragmentActivity {
+public class Home extends FragmentActivity implements LoginFragmentListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +18,9 @@ public class Home extends FragmentActivity {
 
         if (savedInstanceState == null)
         {
+            //Always start on login fragment...
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new HomeFragment())
+                    .add(R.id.content_frame, new LoginFragment(this))
                     .commit();
         }
     }
@@ -50,4 +45,11 @@ public class Home extends FragmentActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void loginComplete() {
+        //Swap out the login fragment for the home fragment.
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.content_frame, new HomeFragment())
+                .commit();
+    }
 }

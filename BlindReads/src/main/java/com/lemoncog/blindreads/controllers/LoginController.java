@@ -101,27 +101,19 @@ public class LoginController
 
         ApiFactory.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
 
-        //TEST!
-        Response response = mOAuthService.getFriendRequests();
-
-        try {
-
-            BufferedReader r = new BufferedReader(new InputStreamReader(response.getBody().in()));
-            StringBuilder total = new StringBuilder();
-            String line;
-            while ((line = r.readLine()) != null) {
-                total.append(line);
-            }
-
-            Log.v("LoginController", total.toString());
-
-        } catch (IOException e)
-        {
-            e.printStackTrace();
-        }
+        //Groovy, we are now authenticated!
+        mLoginCallback.userLoggedIn();
     }
 
     public void userDeniedAuthorization() {
+        //Well..
+    }
 
+    public void logOut()
+    {
+        IUser user = getUserSupplier().getUser();
+
+        user.setToken(null);
+        user.setLoggedIn(false);
     }
 }
