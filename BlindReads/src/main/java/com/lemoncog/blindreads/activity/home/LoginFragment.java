@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.google.inject.Injector;
-import com.lemoncog.blindreads.ApiFactory;
+import com.lemoncog.blindreads.GoodReadsEngine;
 import com.lemoncog.blindreads.BlindReadsApp;
 import com.lemoncog.blindreads.R;
 import com.lemoncog.blindreads.controllers.ILoginCallBack;
@@ -69,26 +69,22 @@ public class LoginFragment extends Fragment implements ILoginCallBack {
                 //Tell the LoginController the user has accepted or denied authorization
                 if(url.contains("authorize=1"))
                 {
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            mLoginController.userAcceptedAuthorization(url);
-                        }}).start();
+                    mLoginController.userAcceptedAuthorization(url);
 
-                        removeWebView();
-                    }else if(url.contains("authorize=0"))
+                    removeWebView();
+                }else if(url.contains("authorize=0"))
                 {
                     mLoginController.userDeniedAuthorization();
                     removeWebView();
                 }
 
-                    return false;
-                }
-            };
+                return false;
+            }
+        };
 
-            mHiddenWebView = (WebView) getView().findViewById(R.id.login_full_webview);
-            mHiddenWebView.setWebViewClient(mWebViewClient);
-        }
+        mHiddenWebView = (WebView) getView().findViewById(R.id.login_full_webview);
+        mHiddenWebView.setWebViewClient(mWebViewClient);
+    }
 
     private void removeWebView() {
         mHiddenWebView.setVisibility(View.GONE);
@@ -104,7 +100,7 @@ public class LoginFragment extends Fragment implements ILoginCallBack {
     {
         IUserSupplier userSupplier = getInjector().getInstance(IUserSupplier.class);
         OAuthConfig oAuthConfig = getInjector().getInstance(OAuthConfig.class);
-        OAuthService service = ApiFactory.provideRestAdapter(ApiFactory.provideServer(), ApiFactory.provideClient(), ApiFactory.provideConverter()).create(OAuthService.class);
+        OAuthService service =  GoodReadsEngine.provideRestAdapter(GoodReadsEngine.provideServer(), GoodReadsEngine.provideClient(), GoodReadsEngine.provideConverter()).create(OAuthService.class);
 
         mLoginController = new LoginController(this, service, userSupplier, oAuthConfig);
     }
@@ -122,12 +118,7 @@ public class LoginFragment extends Fragment implements ILoginCallBack {
     private void loginOrUpdate()
     {
         //TODO - create proper class for this, aSynchtask perhaps?
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                mLoginController.login();
-            }
-        }).start();
+        mLoginController.login();
     }
 
     private void showLoadingBar()
@@ -138,13 +129,8 @@ public class LoginFragment extends Fragment implements ILoginCallBack {
     @Override
     public void requestWebView(final String url)
     {
-        getActivity().runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                mHiddenWebView.setVisibility(View.VISIBLE);
-                mHiddenWebView.loadUrl(url);
-            }
-        });
+        mHiddenWebView.setVisibility(View.VISIBLE);
+        mHiddenWebView.loadUrl(url);
     }
 
     @Override

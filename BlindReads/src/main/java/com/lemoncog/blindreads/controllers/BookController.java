@@ -2,7 +2,7 @@ package com.lemoncog.blindreads.controllers;
 
 import android.util.Log;
 
-import com.lemoncog.blindreads.ApiFactory;
+import com.lemoncog.blindreads.GoodReadsEngine;
 import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.GoodReadsService;
 import com.lemoncog.blindreads.models.BookList;
@@ -16,7 +16,7 @@ public class BookController
 {
     private RestAdapter mRestAdapter;
     private IUserSupplier mUserSupplier;
-    String apiKey = ApiFactory.provideAPIKey();
+    String apiKey = GoodReadsEngine.provideAPIKey();
 
     public BookController(IUserSupplier userSupplier, RestAdapter restAdapter)
     {

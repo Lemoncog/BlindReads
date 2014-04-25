@@ -2,7 +2,7 @@ package com.lemoncog.blindreads.test;
 
 import android.test.ActivityTestCase;
 
-import com.lemoncog.blindreads.ApiFactory;
+import com.lemoncog.blindreads.GoodReadsEngine;
 import com.lemoncog.blindreads.controllers.BookController;
 import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.GoodReadsService;
@@ -27,7 +27,7 @@ public class GoodReadsBooksTest extends ActivityTestCase
     {
         IUserSupplier userSupplier = mock(IUserSupplier.class);
 
-        BookController bookController = new BookController(userSupplier, ApiFactory.provideRestAdapter(ApiFactory.provideServer(), ApiFactory.provideClient(), ApiFactory.provideConverter()));
+        BookController bookController = new BookController(userSupplier, GoodReadsEngine.provideRestAdapter(GoodReadsEngine.provideServer(), GoodReadsEngine.provideClient(), GoodReadsEngine.provideConverter()));
 
         BookList bookList = bookController.getUserBookList(MockFactory.getMockUserWithID("15315090"));
 
@@ -36,9 +36,9 @@ public class GoodReadsBooksTest extends ActivityTestCase
 
     public void testStoreUsersBookList()
     {
-        GoodReadsService service = ApiFactory.provideRestAdapter(ApiFactory.provideServer(), ApiFactory.provideClient(), ApiFactory.provideConverter()).create(GoodReadsService.class);
+        GoodReadsService service = GoodReadsEngine.provideRestAdapter(GoodReadsEngine.provideServer(), GoodReadsEngine.provideClient(), GoodReadsEngine.provideConverter()).create(GoodReadsService.class);
 
-        BookList bookList = service.usersBookList("15315090", ApiFactory.provideAPIKey(), "2");
+        BookList bookList = service.usersBookList("15315090", GoodReadsEngine.provideAPIKey(), "2");
 
         Assert.assertTrue(bookList.getReviews().size() > 0);
     }

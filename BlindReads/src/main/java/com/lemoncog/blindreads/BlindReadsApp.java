@@ -12,6 +12,7 @@ public class BlindReadsApp extends Application
 {
     private Injector mInjector;
 
+
     @Override
     public void onCreate()
     {
@@ -19,6 +20,7 @@ public class BlindReadsApp extends Application
 
        mInjector = Guice.createInjector(new ApiModule());
     }
+
 
     public Injector getInjector()
     {

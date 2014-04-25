@@ -26,5 +26,6 @@ public class ApiModule extends AbstractModule {
         bind(OAuthConfig.class).to(GoodReadsOAuthConfig.class).in(Scopes.SINGLETON);
         bind(IUserSupplier.class).to(MemoryUserSupplier.class).in(Scopes.SINGLETON);
         bind(IUser.class).to(User.class);
+        bind(GoodReadsEngine.class).in(Scopes.SINGLETON);
     }
 }

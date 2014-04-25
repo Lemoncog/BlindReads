@@ -21,7 +21,7 @@ import se.akerfeldt.signpost.retrofit.SigningOkClient;
 /**
  * Created by Gaming on 25/01/14.
  */
-public class ApiFactory {
+public class GoodReadsEngine {
     private static final String PRODUCTION_API_URL = "https://www.goodreads.com";
     private static String API_KEY = "uyFUveTbOQWKWgszgLL2xQ";
     private static String API_SECRET = "8wos2RNrsBj5ItGLQ5yHKA7NI7wMF5lhtmCJFI6ic";

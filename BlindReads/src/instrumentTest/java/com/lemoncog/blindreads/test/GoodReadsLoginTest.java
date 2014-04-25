@@ -1,38 +1,23 @@
 package com.lemoncog.blindreads.test;
 
-import android.app.Application;
-import android.content.Context;
 import android.test.ActivityTestCase;
 
-import com.google.inject.util.Modules;
-import com.lemoncog.blindreads.ApiFactory;
-import com.lemoncog.blindreads.ApiModule;
+import com.lemoncog.blindreads.GoodReadsEngine;
 import com.lemoncog.blindreads.controllers.ILoginCallBack;
 import com.lemoncog.blindreads.controllers.LoginController;
 import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.OAuthService;
 import com.lemoncog.blindreads.models.IUser;
-import com.lemoncog.blindreads.models.User;
 import com.lemoncog.blindreads.oAuth.IToken;
 import com.lemoncog.blindreads.oAuth.OAuthConfig;
 import com.lemoncog.blindreads.oAuth.Token;
-import com.lemoncog.blindreads.test.factory.MockFactory;
 
 import junit.framework.Assert;
-
-import org.mockito.internal.matchers.Any;
-import org.mockito.internal.matchers.Null;
-import org.mockito.invocation.InvocationOnMock;
-import org.mockito.stubbing.Answer;
-
-import roboguice.RoboGuice;
-import roboguice.activity.RoboActivity;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Matchers.eq;
 import static org.mockito.Matchers.isNull;
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -57,7 +42,7 @@ public class GoodReadsLoginTest extends ActivityTestCase {
 
     public OAuthService createOAuthService()
     {
-        return ApiFactory.provideRestAdapter(ApiFactory.provideServer(), ApiFactory.provideClient(), ApiFactory.provideConverter()).create(OAuthService.class);
+        return GoodReadsEngine.provideRestAdapter(GoodReadsEngine.provideServer(), GoodReadsEngine.provideClient(), GoodReadsEngine.provideConverter()).create(OAuthService.class);
     }
 
     public void testOAuthRequestToken()

@@ -48,10 +48,13 @@ dependencies {
 
     compile 'com.squareup.picasso:picasso:2.1.1'
 
-    compile 'org.roboguice:roboguice:2.0'
+    compile 'com.netflix.rxjava:rxjava-android:0.16.1'
 
     compile 'oauth.signpost:signpost-core:1.2.1.2'
 
+    //compile 'junit:junit:4.11'
+    compile 'org.roboguice:roboguice:2.0'
+    //compile 'org.robolectric:robolectric:2.2'
     compile 'org.mockito:mockito-core:1.9.5'
     compile 'com.google.dexmaker:dexmaker:1.0'
     compile 'com.google.dexmaker:dexmaker-mockito:1.0'

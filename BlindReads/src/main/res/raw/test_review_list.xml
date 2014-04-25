@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[uyFUveTbOQWKWgszgLL2xQ]]></key>
+    <method><![CDATA[review_list]]></method>
+  </Request>
+  <reviews start="1" end="20" total="118">
+    <review>
+  <id>831109219</id>
+    <book>
+  <id type="integer">45245</id>
+  <isbn>0330340328</isbn>
+  <isbn13>9780330340328</isbn13>
+  <text_reviews_count type="integer">359</text_reviews_count>
+  <title>The Reality Dysfunction (Night's Dawn, #1)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1331274659m/45245.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1331274659s/45245.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/45245.The_Reality_Dysfunction</link>
+  <num_pages>1223</num_pages>
+  <format>Mass Market Paperback</format>
+  <edition_information/>
+  <publisher>Pan Books</publisher>
+  <publication_day/>
+  <publication_year>1997</publication_year>
+  <publication_month>3</publication_month>
+  <average_rating>4.13</average_rating>
+  <ratings_count>11723</ratings_count>
+  <description>In AD 2600, the human race is finally beginning to realize its full potential. Hundreds of colonized planets scattered across the galaxy host a multitude of prosperous and wildly diverse cultures. Genetic engineering has pushed evolution far beyond nature's boundaries, defeating disease and producing extraordinary spaceborn creatures. Huge fleets of sentient trader starships thrive on the wealth created by the industrialization of entire star systems. And throughout inhabited space the Confederation Navy keeps the peace. A true golden age is within our grasp. But now something has gone catastrophically wrong. On a primitive colony planet a renegade criminal's chance encounter with an utterly alien entity unleashes the most primal of all our fears. An extinct race, which inhabited the galaxy aeons ago called it</description>
+<authors>
+  <author>
+    <id>25375</id>
+    <name>Peter F. Hamilton</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235123752p5/25375.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235123752p2/25375.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/25375.Peter_F_Hamilton]]></link>
+    <average_rating>4.14</average_rating>
+    <ratings_count>112131</ratings_count>
+    <text_reviews_count>4530</text_reviews_count>
+  </author>
+</authors>
+  <published>1997</published>
+</book>
+
+  <rating>0</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+      <shelf name="on-hold" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Wed Jan 22 05:29:41 -0800 2014</date_added>
+  <date_updated>Wed Jan 22 05:29:41 -0800 2014</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/831109219]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/831109219]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>809404070</id>
+    <book>
+  <id type="integer">7332</id>
+  <isbn>0618391118</isbn>
+  <isbn13>9780618391110</isbn13>
+  <text_reviews_count type="integer">2433</text_reviews_count>
+  <title>The Silmarillion</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1336502583m/7332.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1336502583s/7332.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/7332.The_Silmarillion</link>
+  <num_pages>386</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>3.77</average_rating>
+  <ratings_count>93290</ratings_count>
+  <description>The tales of The Silmarillion were the underlying inspiration &amp;amp; source of Tolkien's imaginative writing. He worked on the book throughout his life but never brought it to final form. Long preceding in its origins The Lord of the Rings, it's the story of the 1st Age of Tolkien's world, the ancient drama to which characters in The Lord of the Rings look back &amp;amp; in which some of them, such as Elrond &amp;amp; Galadriel, took part.&lt;br&gt; The title Silmarillion is shortened from Quenta Silmarillion, The History of the Silmarils, the three great jewels created by Feanor, most gifted of the Elves, in which he imprisoned the light of the Two Trees that illumined Valinor, the land of the gods. When Morgoth, 1st Dark Lord, destroyed the Trees, that light lived on only in the Silmarils; Morgoth seized them &amp;amp; set them in his crown, guarded in the impenetrable fortress of Angband in the north of Middle-earth. The Silmarillion is the history of the rebellion of Feanor &amp;amp; his people against the gods, their exile in Middle-earth, &amp;amp; their war, hopeless despite all the heroisim of Elves &amp;amp; Men, against the great Enemy.&lt;br&gt; The book includes several other, shorter works beside The Silmarillion proper. Preceding it are Ainulindale, the myth of Creation, &amp;amp; Valaquenta, in which the nature &amp;amp; powers of each of the gods is set forth. After The Silmarillion is Akallabeth, the story of the downfall of the great island kingdom of Numenor at the end of the 2nd Age; completing the volume is "Of the Rings of Power &amp;amp; the 3rd Age," in which the events of The Lord of the Rings are treated in the manner of The Silmarillion.</description>
+<authors>
+  <author>
+    <id>656983</id>
+    <name>J.R.R. Tolkien</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1383526938p5/656983.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1383526938p2/656983.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/656983.J_R_R_Tolkien]]></link>
+    <average_rating>4.27</average_rating>
+    <ratings_count>3544099</ratings_count>
+    <text_reviews_count>57143</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Thu Jan 02 17:41:18 -0800 2014</started_at>
+  <read_at>Fri Jan 10 15:56:08 -0800 2014</read_at>
+  <date_added>Thu Jan 02 17:41:18 -0800 2014</date_added>
+  <date_updated>Fri Jan 10 15:56:08 -0800 2014</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/809404070]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/809404070]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>795352923</id>
+    <book>
+  <id type="integer">433567</id>
+  <isbn>048627263X</isbn>
+  <isbn13>9780486272634</isbn13>
+  <text_reviews_count type="integer">1265</text_reviews_count>
+  <title>Flatland: A Romance of Many Dimensions</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1328868256m/433567.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1328868256s/433567.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/433567.Flatland</link>
+  <num_pages>83</num_pages>
+  <format>Paperback</format>
+  <edition_information>Dover Thrift Edition</edition_information>
+  <publisher>Dover Publications, Inc.</publisher>
+  <publication_day>21</publication_day>
+  <publication_year>1992</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>3.79</average_rating>
+  <ratings_count>21291</ratings_count>
+  <description>This masterpiece of science (and mathematical) fiction is a delightfully unique and highly entertaining satire that has charmed readers for more than 100 years. The work of English clergyman, educator and Shakespearean scholar Edwin A. Abbott (1838-1926), it describes the journeys of A. Square, a mathematician and resident of the two-dimensional Flatland, where women-thin, straight lines-are the lowliest of shapes, and where men may have any number of sides, depending on their social status.&lt;br&gt;Through strange occurrences that bring him into contact with a host of geometric forms, Square has adventures in Spaceland (three dimensions), Lineland (one dimension) and Pointland (no dimensions) and ultimately entertains thoughts of visiting a land of four dimensions—a revolutionary idea for which he is returned to his two-dimensional world. Charmingly illustrated by the author, Flatland is not only fascinating reading, it is still a first-rate fictional introduction to the concept of the multiple dimensions of space. "Instructive, entertaining, and stimulating to the imagination." — &lt;em&gt;Mathematics Teacher&lt;/em&gt;.</description>
+<authors>
+  <author>
+    <id>3093075</id>
+    <name>Edwin A. Abbott</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1291869697p5/3093075.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1291869697p2/3093075.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/3093075.Edwin_A_Abbott]]></link>
+    <average_rating>3.79</average_rating>
+    <ratings_count>21769</ratings_count>
+    <text_reviews_count>1680</text_reviews_count>
+  </author>
+</authors>
+  <published>1992</published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Fri Jan 10 16:24:53 -0800 2014</started_at>
+  <read_at>Sun Jan 19 14:33:59 -0800 2014</read_at>
+  <date_added>Fri Dec 20 16:30:39 -0800 2013</date_added>
+  <date_updated>Sun Jan 19 14:33:59 -0800 2014</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/795352923]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/795352923]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>785695555</id>
+    <book>
+  <id type="integer">250024</id>
+  <isbn>1857987632</isbn>
+  <isbn13>9781857987638</isbn13>
+  <text_reviews_count type="integer">218</text_reviews_count>
+  <title>The City and the Stars</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1340242824m/250024.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1340242824s/250024.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/250024.The_City_and_the_Stars</link>
+  <num_pages>254</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day>8</publication_day>
+  <publication_year>2001</publication_year>
+  <publication_month>3</publication_month>
+  <average_rating>4.06</average_rating>
+  <ratings_count>11107</ratings_count>
+  <description>The City and the Stars (1956) is a science fiction novel by Arthur C. Clarke. It is a complete rewrite of his earlier novella, Against the Fall of Night.&lt;br&gt;&lt;br&gt;Men had built cities before, but never such a city as Diaspar; for millennia its protective dome shutout the creeping decay and danger of the world outside. Once, it held powers that rules the stars. But then, as legend had it, The invaders came, driving humanity into this last refuge. It takes one man, A Unique to break through Diaspar's stifling inertia, to smash the legend and discover the true nature of the Invaders.</description>
+<authors>
+  <author>
+    <id>7779</id>
+    <name>Arthur C. Clarke</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1357191481p5/7779.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1357191481p2/7779.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/7779.Arthur_C_Clarke]]></link>
+    <average_rating>3.87</average_rating>
+    <ratings_count>442968</ratings_count>
+    <text_reviews_count>11529</text_reviews_count>
+  </author>
+</authors>
+  <published>2001</published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Mon Dec 09 16:04:15 -0800 2013</date_added>
+  <date_updated>Mon Dec 09 16:04:15 -0800 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/785695555]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/785695555]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>785694728</id>
+    <book>
+  <id type="integer">51496</id>
+  <isbn nil="true"/>
+  <isbn13>9780451528957</isbn13>
+  <text_reviews_count type="integer">2280</text_reviews_count>
+  <title>The Strange Case of Dr. Jekyll and Mr. Hyde</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1318116526m/51496.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1318116526s/51496.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde</link>
+  <num_pages>144</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Signet Classics</publisher>
+  <publication_day>2</publication_day>
+  <publication_year>2003</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>3.73</average_rating>
+  <ratings_count>113958</ratings_count>
+  <description>In this harrowing tale of good and evil, the mild-mannered Dr. Jekyll develops a potion that unleashes his secret, inner persona—the loathsome, twisted Mr. Hyde.</description>
+<authors>
+  <author>
+    <id>854076</id>
+    <name>Robert Louis Stevenson</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1192746024p5/854076.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1192746024p2/854076.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/854076.Robert_Louis_Stevenson]]></link>
+    <average_rating>3.79</average_rating>
+    <ratings_count>412141</ratings_count>
+    <text_reviews_count>11624</text_reviews_count>
+  </author>
+</authors>
+  <published>2003</published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Mon Dec 09 16:02:56 -0800 2013</started_at>
+  <read_at>Thu Dec 12 15:14:39 -0800 2013</read_at>
+  <date_added>Mon Dec 09 16:02:56 -0800 2013</date_added>
+  <date_updated>Thu Dec 12 15:14:39 -0800 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/785694728]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/785694728]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>760024021</id>
+    <book>
+  <id type="integer">43889</id>
+  <isbn>0765346524</isbn>
+  <isbn13>9780765346520</isbn13>
+  <text_reviews_count type="integer">3098</text_reviews_count>
+  <title>Wizard's First Rule (Sword of Truth, #1)</title>
+  <image_url>https://www.goodreads.com/assets/nocover/111x148.png</image_url>
+  <small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+  <link>https://www.goodreads.com/book/show/43889.Wizard_s_First_Rule</link>
+  <num_pages>836</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.11</average_rating>
+  <ratings_count>109892</ratings_count>
+  <description>&lt;strong&gt;The masterpiece that started &lt;em&gt;The New York Times&lt;/em&gt; bestselling epic Sword of Truth&lt;/strong&gt;&lt;br&gt;&lt;br&gt;In the aftermath of the brutal murder of his father, a mysterious woman, Kahlan Amnell, appears in Richard Cypher's forest sanctuary seeking help . . . and more. His world, his very beliefs, are shattered when ancient debts come due with thundering violence.&lt;br&gt;&lt;br&gt;In a dark age it takes courage to live, and more than mere courage to challenge those who hold dominion, Richard and Kahlan must take up that challenge or become the next victims. Beyond awaits a bewitching land where even the best of their hearts could betray them. Yet, Richard fears nothing so much as what secrets his sword might reveal about his own soul. Falling in love would destroy them--for reasons Richard can't imagine and Kahlan dare not say.&lt;br&gt;In their darkest hour, hunted relentlessly, tormented by treachery and loss, Kahlan calls upon Richard to reach beyond his sword--to invoke within himself something more noble. Neither knows that the rules of battle have just changed . . . or that their time has run out.&lt;br&gt;This is the beginning. One book. One Rule. Witness the birth of a legend.&lt;br&gt;</description>
+<authors>
+  <author>
+    <id>3441</id>
+    <name>Terry Goodkind</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1339807358p5/3441.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1339807358p2/3441.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/3441.Terry_Goodkind]]></link>
+    <average_rating>3.98</average_rating>
+    <ratings_count>492935</ratings_count>
+    <text_reviews_count>12537</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Fri Nov 08 15:36:17 -0800 2013</started_at>
+  <read_at>Mon Dec 09 16:03:33 -0800 2013</read_at>
+  <date_added>Fri Nov 08 08:42:47 -0800 2013</date_added>
+  <date_updated>Mon Dec 09 16:03:33 -0800 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/760024021]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/760024021]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>730597779</id>
+    <book>
+  <id type="integer">77711</id>
+  <isbn>0812515285</isbn>
+  <isbn13>9780812515282</isbn13>
+  <text_reviews_count type="integer">884</text_reviews_count>
+  <title>A Fire Upon the Deep  (Zones of Thought #1)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1333915005m/77711.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1333915005s/77711.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/77711.A_Fire_Upon_the_Deep</link>
+  <num_pages>613</num_pages>
+  <format>Mass Market Paperback</format>
+  <edition_information/>
+  <publisher>Tor Science Fiction</publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.12</average_rating>
+  <ratings_count>20882</ratings_count>
+  <description>&lt;em&gt;A Fire upon the Deep&lt;/em&gt; is the big, breakout book that fulfills the promise of Vinge's career to date: a gripping tale of galactic war told on a cosmic scale.&lt;br&gt;&lt;br&gt;Thousands of years hence, many races inhabit a universe where a mind's potential is determined by its location in space, from superintelligent entities in the Transcend, to the limited minds of the Unthinking Depths, where only simple creatures and technology can function. Nobody knows what strange force partitioned space into these "regions of thought," but when the warring Straumli realm use an ancient Transcendent artifact as a weapon, they unwittingly unleash an awesome power that destroys thousands of worlds and enslaves all natural and artificial intelligence.&lt;br&gt;&lt;br&gt;Fleeing the threat, a family of scientists, including two children, are taken captive by the Tines, an alien race with a harsh medieval culture, and used as pawns in a ruthless power struggle. A rescue mission, not entirely composed of humans, must rescue the children-and a secret that may save the rest of interstellar civilization.</description>
+<authors>
+  <author>
+    <id>44037</id>
+    <name>Vernor Vinge</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1215099239p5/44037.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1215099239p2/44037.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/44037.Vernor_Vinge]]></link>
+    <average_rating>4.05</average_rating>
+    <ratings_count>52886</ratings_count>
+    <text_reviews_count>2750</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Sun Sep 29 14:14:04 -0700 2013</started_at>
+  <read_at>Sat Oct 26 03:50:04 -0700 2013</read_at>
+  <date_added>Sun Sep 29 14:14:04 -0700 2013</date_added>
+  <date_updated>Sat Oct 26 03:50:04 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/730597779]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/730597779]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>730528218</id>
+    <book>
+  <id type="integer">48002</id>
+  <isbn>0061031321</isbn>
+  <isbn13>9780061031328</isbn13>
+  <text_reviews_count type="integer">448</text_reviews_count>
+  <title>Thief of Time (Discworld, #26)</title>
+  <image_url>https://www.goodreads.com/assets/nocover/111x148.png</image_url>
+  <small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+  <link>https://www.goodreads.com/book/show/48002.Thief_of_Time</link>
+  <num_pages>357</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day>30</publication_day>
+  <publication_year>2002</publication_year>
+  <publication_month>4</publication_month>
+  <average_rating>4.18</average_rating>
+  <ratings_count>28728</ratings_count>
+  <description>Time is a resource. Everyone knows it has to be managed.&lt;br&gt;And on Discworld that is the job of the Monks of History, who store it and pump it from the places where it's wasted (like underwater -- how much time does a codfish need?) to places like cities, where there's never enough time.&lt;br&gt;But the construction of the world's first truly accurate clock starts a race against, well, time, for Lu Tze and his apprentice Lobsang Ludd. Because it will stop time. And that will only be the start of everyone's problems.&lt;br&gt;Thief of Time comes complete with a full supporting cast of heroes and villains, yetis, martial artists and Ronnie, the fifth Horseman of the Apocalypse (who left before they became famous).</description>
+<authors>
+  <author>
+    <id>1654</id>
+    <name>Terry Pratchett</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p5/1654.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p2/1654.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/1654.Terry_Pratchett]]></link>
+    <average_rating>4.10</average_rating>
+    <ratings_count>1738044</ratings_count>
+    <text_reviews_count>50577</text_reviews_count>
+  </author>
+</authors>
+  <published>2002</published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Sun Sep 29 14:09:42 -0700 2013</started_at>
+  <read_at></read_at>
+  <date_added>Sun Sep 29 12:29:20 -0700 2013</date_added>
+  <date_updated>Wed Jan 15 14:12:24 -0800 2014</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/730528218]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/730528218]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>730515453</id>
+    <book>
+  <id type="integer">64394</id>
+  <isbn>1857984986</isbn>
+  <isbn13>9781857984989</isbn13>
+  <text_reviews_count type="integer">182</text_reviews_count>
+  <title>The Stainless Steel Rat (Stainless Steel Rat, #4)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1328073906m/64394.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1328073906s/64394.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/64394.The_Stainless_Steel_Rat</link>
+  <num_pages>208</num_pages>
+  <format>Mass Market Paperback</format>
+  <edition_information/>
+  <publisher>Orion</publisher>
+  <publication_day/>
+  <publication_year>1998</publication_year>
+  <publication_month>12</publication_month>
+  <average_rating>3.94</average_rating>
+  <ratings_count>6782</ratings_count>
+  <description>There is a prequel called, &lt;a href="http://www.goodreads.com/book/show/64397.A_Stainless_Steel_Rat_is_Born"&gt;A Stainless Steel Rat is Born&lt;/a&gt;.&lt;br&gt;&lt;br&gt;In the vastness of space, the crimes just get bigger and Slippery Jim diGriz, the Stainless Steel Rat, is the biggest criminal of them all. He can con humans, aliens and any number of robots time after time. Jim is so slippery that all the inter-galactic cops can do is make him one of their own</description>
+<authors>
+  <author>
+    <id>16147</id>
+    <name>Harry Harrison</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1388851492p5/16147.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1388851492p2/16147.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/16147.Harry_Harrison]]></link>
+    <average_rating>3.81</average_rating>
+    <ratings_count>60182</ratings_count>
+    <text_reviews_count>2031</text_reviews_count>
+  </author>
+</authors>
+  <published>1998</published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Sep 29 12:10:56 -0700 2013</date_added>
+  <date_updated>Sun Sep 29 12:10:56 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/730515453]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/730515453]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>730513906</id>
+    <book>
+  <id type="integer">112537</id>
+  <isbn>1857231589</isbn>
+  <isbn13>9781857231588</isbn13>
+  <text_reviews_count type="integer">995</text_reviews_count>
+  <title>Rendezvous with Rama (Rama, #1)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1357153807m/112537.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1357153807s/112537.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama</link>
+  <num_pages>243</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day/>
+  <publication_year>2000</publication_year>
+  <publication_month/>
+  <average_rating>3.99</average_rating>
+  <ratings_count>53593</ratings_count>
+  <description>At first, only a few things are known about the celestial object that astronomers dub Rama. It is huge, weighing more than ten trillion tons. And it is hurtling through the solar system at an inconceivable speed. Then a space probe confirms the unthinkable: Rama is no natural object. It is, incredibly, an interstellar spacecraft. Space explorers and planet-bound scientists alike prepare for mankind's first encounter with alien intelligence. It will kindle their wildest dreams... and fan their darkest fears. For no one knows who the Ramans are or why they have come. And now the moment of rendezvous awaits — just behind a Raman airlock door.</description>
+<authors>
+  <author>
+    <id>7779</id>
+    <name>Arthur C. Clarke</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1357191481p5/7779.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1357191481p2/7779.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/7779.Arthur_C_Clarke]]></link>
+    <average_rating>3.87</average_rating>
+    <ratings_count>442968</ratings_count>
+    <text_reviews_count>11529</text_reviews_count>
+  </author>
+</authors>
+  <published>2000</published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Sep 29 12:08:48 -0700 2013</date_added>
+  <date_updated>Sun Sep 29 12:08:55 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/730513906]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/730513906]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>673408337</id>
+    <book>
+  <id type="integer">7260188</id>
+  <isbn>0439023513</isbn>
+  <isbn13>9780439023511</isbn13>
+  <text_reviews_count type="integer">70311</text_reviews_count>
+  <title>Mockingjay (The Hunger Games, #3)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1358275419m/7260188.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1358275419s/7260188.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/7260188-mockingjay</link>
+  <num_pages>390</num_pages>
+  <format></format>
+  <edition_information>First Edition</edition_information>
+  <publisher>Scholastic Press</publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.03</average_rating>
+  <ratings_count>1076894</ratings_count>
+  <description>&lt;strong&gt;My name is Katniss Everdeen.&lt;br&gt;Why am I not dead?&lt;br&gt;I should be dead.&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed.  Gale has escaped. Katniss's family is safe. Peeta has been captured by the Capitol. District 13 really does exist. There are rebels. There are new leaders. A revolution is unfolding.&lt;br&gt;&lt;br&gt;It is by design that Katniss was rescued from the arena in the cruel and haunting Quarter Quell, and it is by design that she has long been part of the revolution without knowing it.  District 13 has come out of the shadows and is plotting to overthrow the Capitol. Everyone, it seems, has had a hand in the carefully laid plans--except Katniss.&lt;br&gt;&lt;br&gt;The success of the rebellion hinges on Katniss's willingness to be a pawn, to accept responsibility for countless lives, and to change the course of the future of Panem. To do this, she must put aside her feelings of anger and distrust. She must become the rebels' Mockingjay--no matter what the personal cost.</description>
+<authors>
+  <author>
+    <id>153394</id>
+    <name>Suzanne Collins</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1366212557p5/153394.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1366212557p2/153394.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/153394.Suzanne_Collins]]></link>
+    <average_rating>4.29</average_rating>
+    <ratings_count>4656235</ratings_count>
+    <text_reviews_count>291660</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Sun Jul 21 11:05:12 -0700 2013</started_at>
+  <read_at>Thu Jul 25 14:08:51 -0700 2013</read_at>
+  <date_added>Sun Jul 21 11:05:12 -0700 2013</date_added>
+  <date_updated>Thu Jul 25 14:08:51 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/673408337]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/673408337]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>662876973</id>
+    <book>
+  <id type="integer">6148028</id>
+  <isbn>0439023491</isbn>
+  <isbn13>9780439023498</isbn13>
+  <text_reviews_count type="integer">67279</text_reviews_count>
+  <title>Catching Fire (The Hunger Games, #2)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1358273780m/6148028.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1358273780s/6148028.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/6148028-catching-fire</link>
+  <num_pages>391</num_pages>
+  <format>Hardcover</format>
+  <edition_information>First Edition</edition_information>
+  <publisher>Scholastic Press</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2009</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>4.30</average_rating>
+  <ratings_count>1181744</ratings_count>
+  <description>&lt;strong&gt;Sparks are igniting.&lt;br&gt;Flames are spreading.&lt;br&gt;And the Capitol wants revenge.&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Against all odds, Katniss has won the Hunger Games.  She and fellow District 12 tribute Peeta Mellark are miraculously still alive.  Katniss should be relieved, happy even.  After all, she has returned to her family and her longtime friend, Gale.  Yet nothing is the way Katniss wishes it to be.  Gale holds her at an icy distance.  Peeta has turned his back on her completely.  And there are whispers of a rebellion against the Capitol - a rebellion that Katniss and Peeta may have helped create.&lt;br&gt;&lt;br&gt;Much to her shock, Katniss has fueled an unrest she's afraid she cannot stop.  And what scares her even more is that she's not entirely convinced she should try.  As time draws near for Katniss and Peeta to visit the districts on the Capitol's cruel Victory Tour, the stakes are higher than ever.  If they can't prove, without a shadow of a doubt, that they are lost in their love for each other, the consequences will be horrifying.&lt;br&gt;&lt;br&gt;In &lt;em&gt;Catching Fire&lt;/em&gt;, the second novel in the Hunger Games trilogy, Suzanne Collins continues the story of Katniss Everdeen, testing her more than ever before...and surprising readers at every turn.</description>
+<authors>
+  <author>
+    <id>153394</id>
+    <name>Suzanne Collins</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1366212557p5/153394.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1366212557p2/153394.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/153394.Suzanne_Collins]]></link>
+    <average_rating>4.29</average_rating>
+    <ratings_count>4656235</ratings_count>
+    <text_reviews_count>291660</text_reviews_count>
+  </author>
+</authors>
+  <published>2009</published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Tue Jul 09 07:08:09 -0700 2013</date_added>
+  <date_updated>Thu Jul 18 11:05:55 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/662876973]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/662876973]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>661218613</id>
+    <book>
+  <id type="integer">21611</id>
+  <isbn>0060510862</isbn>
+  <isbn13>9780060510862</isbn13>
+  <text_reviews_count type="integer">1708</text_reviews_count>
+  <title>The Forever War (The Forever War, #1)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1386852511m/21611.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1386852511s/21611.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/21611.The_Forever_War</link>
+  <num_pages>278</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.11</average_rating>
+  <ratings_count>50936</ratings_count>
+  <description>&lt;strong&gt;Series Info:&lt;/strong&gt;&lt;br&gt;This is the first part of the "Forever War" series, however it can be read as a standalone.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Book Description:&lt;/strong&gt;&lt;br&gt;The Earth's leaders have drawn a line in the interstellar sand—despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away.  A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home.  But "home" may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries.</description>
+<authors>
+  <author>
+    <id>12476</id>
+    <name>Joe Haldeman</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1224736362p5/12476.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1224736362p2/12476.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/12476.Joe_Haldeman]]></link>
+    <average_rating>3.92</average_rating>
+    <ratings_count>89157</ratings_count>
+    <text_reviews_count>4808</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Jul 07 12:34:57 -0700 2013</date_added>
+  <date_updated>Sat Aug 10 16:33:03 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/661218613]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/661218613]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>638204966</id>
+    <book>
+  <id type="integer">365</id>
+  <isbn>0671746723</isbn>
+  <isbn13>9780671746728</isbn13>
+  <text_reviews_count type="integer">980</text_reviews_count>
+  <title>Dirk Gently's Holistic Detective Agency (Dirk Gently, #1)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1327885600m/365.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1327885600s/365.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/365.Dirk_Gently_s_Holistic_Detective_Agency</link>
+  <num_pages></num_pages>
+  <format>Mass Market Paperback</format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>3.95</average_rating>
+  <ratings_count>61826</ratings_count>
+  <description>Detective Gently whizzes about the world, the universe, and time itself as a group of eccentric characters help him find an eccentric cat, solve a murder, and save the human race.</description>
+<authors>
+  <author>
+    <id>4</id>
+    <name>Douglas Adams</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1189120061p5/4.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1189120061p2/4.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/4.Douglas_Adams]]></link>
+    <average_rating>4.16</average_rating>
+    <ratings_count>1206935</ratings_count>
+    <text_reviews_count>23126</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Mon Jun 10 14:08:35 -0700 2013</started_at>
+  <read_at>Mon Jul 08 14:58:31 -0700 2013</read_at>
+  <date_added>Mon Jun 10 14:08:35 -0700 2013</date_added>
+  <date_updated>Mon Jul 08 14:58:31 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/638204966]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/638204966]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636895381</id>
+    <book>
+  <id type="integer">34494</id>
+  <isbn>0060012382</isbn>
+  <isbn13>9780060012380</isbn13>
+  <text_reviews_count type="integer">1348</text_reviews_count>
+  <title>The Wee Free Men (Discworld, #30)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1284280817m/34494.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1284280817s/34494.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/34494.The_Wee_Free_Men</link>
+  <num_pages>375</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.21</average_rating>
+  <ratings_count>40341</ratings_count>
+  <description>&lt;em&gt;"Another world is colliding with this one," said the toad. "All the monsters are coming back."&lt;br&gt;&lt;br&gt;"Why?" said Tiffany.&lt;br&gt;&lt;br&gt;"There's no one to stop them."&lt;br&gt;&lt;br&gt;There was silence for a moment.&lt;br&gt;&lt;br&gt;Then Tiffany said, "There's me."&lt;/em&gt;&lt;br&gt;&lt;br&gt;Armed only with a frying pan and her common sense, Tiffany Aching, a young witch-to-be, is all that stands between the monsters of Fairyland and the warm, green Chalk country that is her home. Forced into Fairyland to seek her kidnapped brother, Tiffany allies herself with the Chalk's local Nac Mac Feegle - aka the Wee Free Men - a clan of sheep-stealing, sword-wielding, six-inch-high blue men who are as fierce as they are funny. Together they battle through an eerie and ever-shifting landscape, fighting brutal flying fairies, dream-spinning dromes, and grimhounds - black dogs with eyes of fire and teeth of razors - before ultimately confronting the Queen of the Elves, absolute ruler of a world in which reality intertwines with nightmare. And in the final showdown, Tiffany must face her cruel power alone....&lt;br&gt;&lt;br&gt;In a riveting narrative that is equal parts suspense and humor, Carnegie Medalist Terry Pratchett returns to his internationally popular Discworld with a breathtaking tale certain to leave fans, new and old, enthralled.</description>
+<authors>
+  <author>
+    <id>1654</id>
+    <name>Terry Pratchett</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p5/1654.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p2/1654.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/1654.Terry_Pratchett]]></link>
+    <average_rating>4.10</average_rating>
+    <ratings_count>1738044</ratings_count>
+    <text_reviews_count>50577</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Wed Jan 15 14:13:10 -0800 2014</started_at>
+  <read_at>Sun Jan 19 14:34:35 -0800 2014</read_at>
+  <date_added>Sun Jun 09 05:05:30 -0700 2013</date_added>
+  <date_updated>Sun Jan 19 14:34:35 -0800 2014</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636895381]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636895381]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636895295</id>
+    <book>
+  <id type="integer">400354</id>
+  <isbn>0061092193</isbn>
+  <isbn13>9780061092190</isbn13>
+  <text_reviews_count type="integer">418</text_reviews_count>
+  <title>Men at Arms (Discworld, #15)</title>
+  <image_url>https://www.goodreads.com/assets/nocover/111x148.png</image_url>
+  <small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+  <link>https://www.goodreads.com/book/show/400354.Men_at_Arms</link>
+  <num_pages>377</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher>HarperPrism</publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>4.29</average_rating>
+  <ratings_count>33157</ratings_count>
+  <description>Hintergründige Lebensphilosophie, Anspielungen ohne Ende und eine völlig aberwitzige Story - der britische Kultautor hat wieder zugeschlagen: Ausgerechnet die Stadtwache von Ankh-Morpork - berüchtigt für ihren Hang zum Chaos - soll eine Reihe Morde aufklären, die mit einer geheimnisvollen Waffe begangen wurden: Dem Gfaehr ...&lt;br&gt;&lt;br&gt;</description>
+<authors>
+  <author>
+    <id>1654</id>
+    <name>Terry Pratchett</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p5/1654.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p2/1654.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/1654.Terry_Pratchett]]></link>
+    <average_rating>4.10</average_rating>
+    <ratings_count>1738044</ratings_count>
+    <text_reviews_count>50577</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Sat Oct 26 15:53:31 -0700 2013</started_at>
+  <read_at>Thu Nov 07 16:05:53 -0800 2013</read_at>
+  <date_added>Sun Jun 09 05:05:20 -0700 2013</date_added>
+  <date_updated>Thu Nov 07 16:05:53 -0800 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636895295]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636895295]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636895272</id>
+    <book>
+  <id type="integer">34511</id>
+  <isbn>0413774457</isbn>
+  <isbn13>9780413774453</isbn13>
+  <text_reviews_count type="integer">393</text_reviews_count>
+  <title>Monstrous Regiment: The Play</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1375908503m/34511.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1375908503s/34511.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/34511.Monstrous_Regiment</link>
+  <num_pages>128</num_pages>
+  <format>Paperback</format>
+  <edition_information>for the stage</edition_information>
+  <publisher>A&amp;C Black</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2005</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>4.08</average_rating>
+  <ratings_count>21539</ratings_count>
+  <description>A new stage adaptation of one of Pratchett's best-selling novels.&lt;br&gt;&lt;br&gt;The Monstrous Regiment in question is made up of a vampire (reformed and off the blood, thank you), a troll, Igor (who is only too happy to sew you a new leg if you aren't too particular about previous ownership), a collection of misfits and a young woman discovers that a pair of socks shoved down her pants is a good way to open up doors in a man's army.</description>
+<authors>
+  <author>
+    <id>19439</id>
+    <name>Stephen Briggs</name>
+    <image_url><![CDATA[https://www.goodreads.com/assets/nophoto/user/u_200x266-312f5971f6b4a667fe0e83c852b56858.png]]></image_url>
+    <small_image_url><![CDATA[https://www.goodreads.com/assets/nophoto/user/u_50x66-d9f6a4a5badfda0f69e70cc94d962125.png]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/19439.Stephen_Briggs]]></link>
+    <average_rating>4.18</average_rating>
+    <ratings_count>143363</ratings_count>
+    <text_reviews_count>2137</text_reviews_count>
+  </author>
+</authors>
+  <published>2005</published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Jun 09 05:05:16 -0700 2013</date_added>
+  <date_updated>Thu Jul 18 11:06:22 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636895272]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636895272]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636894072</id>
+    <book>
+  <id type="integer">34507</id>
+  <isbn>0060855908</isbn>
+  <isbn13>9780060855901</isbn13>
+  <text_reviews_count type="integer">704</text_reviews_count>
+  <title>Equal Rites (Discworld, #3)</title>
+  <image_url>https://www.goodreads.com/assets/nocover/111x148.png</image_url>
+  <small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+  <link>https://www.goodreads.com/book/show/34507.Equal_Rites</link>
+  <num_pages>228</num_pages>
+  <format></format>
+  <edition_information/>
+  <publisher></publisher>
+  <publication_day></publication_day>
+  <publication_year></publication_year>
+  <publication_month></publication_month>
+  <average_rating>3.91</average_rating>
+  <ratings_count>52117</ratings_count>
+  <description>On Discworld, a dying wizard tries to pass on his powers to an eighth son of an eighth son, who is just at that moment being born. The fact that the son is actually a daughter is discovered just a little too late. The town witch insists on turning the baby into a perfectly normal witch, thus mending the magical damage of the wizard's mistake. But now the young girl will be forced to penetrate the inner sanctum of the Unseen University--and attempt to save the world with one well-placed kick in some enchanted shins! Reissue.</description>
+<authors>
+  <author>
+    <id>1654</id>
+    <name>Terry Pratchett</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p5/1654.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p2/1654.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/1654.Terry_Pratchett]]></link>
+    <average_rating>4.10</average_rating>
+    <ratings_count>1738044</ratings_count>
+    <text_reviews_count>50577</text_reviews_count>
+  </author>
+</authors>
+  <published></published>
+</book>
+
+  <rating>4</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Sun Jun 09 05:02:35 -0700 2013</started_at>
+  <read_at>Mon Jun 10 14:05:24 -0700 2013</read_at>
+  <date_added>Sun Jun 09 05:02:35 -0700 2013</date_added>
+  <date_updated>Mon Jun 10 14:05:24 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636894072]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636894072]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636893686</id>
+    <book>
+  <id type="integer">233674</id>
+  <isbn>0091886570</isbn>
+  <isbn13>9780091886578</isbn13>
+  <text_reviews_count type="integer">91</text_reviews_count>
+  <title>The Science Of Discworld</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1356444956m/233674.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1356444956s/233674.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/233674.The_Science_Of_Discworld</link>
+  <num_pages>416</num_pages>
+  <format>Paperback</format>
+  <edition_information>Revised Edition</edition_information>
+  <publisher>Ebury Press</publisher>
+  <publication_day>2</publication_day>
+  <publication_year>2002</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>3.86</average_rating>
+  <ratings_count>4189</ratings_count>
+  <description>When a wizardly experiment goes adrift, the wizards of Unseen University find themselves with a pocket universe on their hands: Roundworld, where neither magic nor common sense seems to stand a chance against logic. The Universe, of course, is our own. And Roundworld is Earth. As the wizards watch their accidental creation grow, we follow the story of our universe from the primal singularity of the Big Bang to the Internet and beyond. Through this original Terry Pratchett story (with intervening chapters from Cohen and Stewart) we discover how puny and insignificant individual lives are against a cosmic backdrop of creation and disaster. Yet, paradoxically, we see how the richness of a universe based on rules, has led to a complex world and at least one species that tried to get a grip of what was going on.</description>
+<authors>
+  <author>
+    <id>1654</id>
+    <name>Terry Pratchett</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p5/1654.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1235562205p2/1654.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/1654.Terry_Pratchett]]></link>
+    <average_rating>4.10</average_rating>
+    <ratings_count>1738044</ratings_count>
+    <text_reviews_count>50577</text_reviews_count>
+  </author>
+</authors>
+  <published>2002</published>
+</book>
+
+  <rating>2</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Jun 09 05:01:38 -0700 2013</date_added>
+  <date_updated>Sun Jun 09 05:01:45 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636893686]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636893686]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>636892198</id>
+    <book>
+  <id type="integer">1222817</id>
+  <isbn>0375937412</isbn>
+  <isbn13>9780375937415</isbn13>
+  <text_reviews_count type="integer">21</text_reviews_count>
+  <title>The Winter Knights (Edge Chronicles, #8)</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320468040m/1222817.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320468040s/1222817.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/1222817.The_Winter_Knights</link>
+  <num_pages>400</num_pages>
+  <format>Library Binding</format>
+  <edition_information/>
+  <publisher>David Fickling</publisher>
+  <publication_day>13</publication_day>
+  <publication_year>2007</publication_year>
+  <publication_month>2</publication_month>
+  <average_rating>4.21</average_rating>
+  <ratings_count>1574</ratings_count>
+  <description>Quint, son of a sky pirate, begins his knight training in an Edgworld heading into endless winter. But he breaks the rules and heads out to Open Sky on his own, and runs into the great sky leviathans known as cloud-eaters. He must use all his skill and ingenuity to save Edgeworld.</description>
+<authors>
+  <author>
+    <id>24830</id>
+    <name>Paul Stewart</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1276920337p5/24830.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1276920337p2/24830.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/24830.Paul_Stewart]]></link>
+    <average_rating>4.08</average_rating>
+    <ratings_count>30422</ratings_count>
+    <text_reviews_count>1472</text_reviews_count>
+  </author>
+</authors>
+  <published>2007</published>
+</book>
+
+  <rating>3</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  <shelves>
+      <shelf name="read" />
+  </shelves>
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Sun Jun 09 04:58:09 -0700 2013</date_added>
+  <date_updated>Sun Jun 09 04:58:17 -0700 2013</date_updated>
+  <read_count></read_count>
+  <body>
+
+  </body>
+  <comments_count>review_comments_count</comments_count>
+  <url><![CDATA[https://www.goodreads.com/review/show/636892198]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/636892198]]></link>
+    <owned>0</owned>
+</review>
+
+</reviews>
+
+</GoodreadsResponse>

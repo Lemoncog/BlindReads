@@ -1,7 +1,7 @@
 //package com.lemoncog.blindreads.engine.oauth;
 //
 //
-//import com.lemoncog.blindreads.ApiFactory;
+//import com.lemoncog.blindreads.GoodReadsEngine;
 //
 //import org.scribe.builder.ServiceBuilder;
 //import org.scribe.builder.api.DefaultApi10a;
@@ -28,7 +28,7 @@
 //    private static final String VERSION = "1.0";
 //    final Client wrapped;
 //
-////    private OAuthService service = new ServiceBuilder().provider(GoodReadsApi.class).apiKey(ApiFactory.provideAPIKey()).apiSecret(ApiFactory.provideAPISecret()).build();
+////    private OAuthService service = new ServiceBuilder().provider(GoodReadsApi.class).apiKey(GoodReadsEngine.provideAPIKey()).apiSecret(GoodReadsEngine.provideAPISecret()).build();
 //    private DefaultApi10a api;
 //    private OAuthConfig config;
 //

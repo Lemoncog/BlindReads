@@ -1,7 +1,10 @@
 package com.lemoncog.blindreads.controllers;
-import android.util.Log;
 
-import com.lemoncog.blindreads.ApiFactory;
+import android.os.Handler;
+import android.os.HandlerThread;
+import android.os.Looper;
+
+import com.lemoncog.blindreads.GoodReadsEngine;
 import com.lemoncog.blindreads.engine.IUserSupplier;
 import com.lemoncog.blindreads.goodreads.OAuthService;
 import com.lemoncog.blindreads.models.IUser;
@@ -13,10 +16,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import javax.inject.Inject;
 
-import retrofit.RestAdapter;
 import retrofit.client.Response;
+import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.util.functions.Action1;
 
 /**
  * Created by Gaming on 23/01/14.
@@ -29,7 +33,6 @@ public class LoginController
     private IUserSupplier mUserSupplier;
     private OAuthConfig mOAuthConfig;
 
-    @Inject
     public LoginController(ILoginCallBack loginCallBack, OAuthService oAuthService, IUserSupplier userSupplier, OAuthConfig oAuthConfig) {
         mLoginCallback = loginCallBack;
         mOAuthService = oAuthService;
@@ -44,14 +47,13 @@ public class LoginController
     public void login()
     {
         IUser user = getUserSupplier().getUser();
-
+        IToken token = null;
         if(!user.isLoggedIn())
         {
-            IToken token = fetchRequestTokenAndSecret();
-            user.setToken(token);
+            getUserSupplier().getUser().setToken(token);
 
             //Update our dodgy static class :S
-            ApiFactory.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
+            GoodReadsEngine.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
 
             authorizeUser();
         }
@@ -99,7 +101,7 @@ public class LoginController
         getUserSupplier().getUser().setToken(token);
         getUserSupplier().getUser().setLoggedIn(true);
 
-        ApiFactory.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
+        GoodReadsEngine.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
 
         //Groovy, we are now authenticated!
         mLoginCallback.userLoggedIn();
