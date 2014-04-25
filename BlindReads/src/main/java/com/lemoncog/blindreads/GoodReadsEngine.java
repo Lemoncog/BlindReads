@@ -10,6 +10,7 @@ import com.lemoncog.blindreads.oAuth.Token;
 
 import org.simpleframework.xml.core.Persister;
 
+import retrofit.Endpoint;
 import retrofit.RestAdapter;
 import retrofit.Server;
 import retrofit.client.Client;
@@ -40,6 +41,21 @@ public class GoodReadsEngine {
         return new Server(PRODUCTION_API_URL);
     }
 
+    public static Endpoint provideEndpoint()
+    {
+        return new Endpoint() {
+            @Override
+            public String getUrl() {
+                return PRODUCTION_API_URL;
+            }
+
+            @Override
+            public String getName() {
+                return "ProductonServer";
+            }
+        };
+    }
+
     public static Converter provideConverter()
     {
         return new SimpleXMLConverter(new Persister());
@@ -62,8 +78,8 @@ public class GoodReadsEngine {
         return mOAuthConsumer;
     }
 
-    public static RestAdapter provideRestAdapter(Server server, Client client, Converter converter)
+    public static RestAdapter provideRestAdapter(Endpoint endPoint, Client client, Converter converter)
     {
-        return new RestAdapter.Builder().setClient(client).setServer(server).setConverter(converter).build();
+        return new RestAdapter.Builder().setClient(client).setEndpoint(endPoint).setConverter(converter).setLogLevel(RestAdapter.LogLevel.FULL).build();
     }
 }

@@ -12,11 +12,14 @@ import com.lemoncog.blindreads.oAuth.IToken;
 import com.lemoncog.blindreads.oAuth.OAuthConfig;
 import com.lemoncog.blindreads.oAuth.Token;
 
+import org.apache.http.client.HttpResponseException;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 
+import retrofit.RetrofitError;
 import retrofit.client.Response;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
@@ -29,28 +32,41 @@ public class LoginController
 {
     private ILoginCallBack mLoginCallback;
     //private RestAdapter mRestAdapter;
-    private OAuthService mOAuthService;
     private IUserSupplier mUserSupplier;
     private OAuthConfig mOAuthConfig;
+    private OAuthService mOAuthService;
 
     public LoginController(ILoginCallBack loginCallBack, OAuthService oAuthService, IUserSupplier userSupplier, OAuthConfig oAuthConfig) {
         mLoginCallback = loginCallBack;
-        mOAuthService = oAuthService;
         mUserSupplier = userSupplier;
         mOAuthConfig = oAuthConfig;
+        mOAuthService = oAuthService;
     }
 
     public IUserSupplier getUserSupplier() {
         return mUserSupplier;
     }
 
+
+
     public void login()
     {
         IUser user = getUserSupplier().getUser();
-        IToken token = null;
-        if(!user.isLoggedIn())
+
+        if(!user.isLoggedIn() && user.getToken() == null)
         {
-            getUserSupplier().getUser().setToken(token);
+            try
+            {
+                getUserSupplier().getUser().setToken(fetchRequestTokenAndSecret());
+            }catch(HttpResponseException error)
+            {
+                //TODO - Handle fail message.
+            }
+        }
+
+        if(user.getToken() != null)
+        {
+            IToken token = user.getToken();
 
             //Update our dodgy static class :S
             GoodReadsEngine.provideOAuthConsumer().setTokenWithSecret(token.getToken(), token.getTokenSecret());
@@ -67,9 +83,19 @@ public class LoginController
         mLoginCallback.requestWebView(authorizeURL);
     }
 
-    public IToken fetchRequestTokenAndSecret()
+    public IToken fetchRequestTokenAndSecret() throws HttpResponseException
     {
-        Response response = mOAuthService.fetchRequestToken();
+        Response response = null;
+        try
+        {
+            response = mOAuthService.fetchRequestToken();
+        }catch(RetrofitError error)
+        {
+            if(error.getResponse() != null)
+            {
+                throw new HttpResponseException(error.getResponse().getStatus(), "Too soon");
+            }
+        }
 
         IToken tokenAndSecret = null;
         try {

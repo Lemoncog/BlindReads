@@ -14,6 +14,8 @@ import com.lemoncog.blindreads.oAuth.Token;
 
 import junit.framework.Assert;
 
+import org.apache.http.client.HttpResponseException;
+
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Matchers.eq;
@@ -53,7 +55,13 @@ public class GoodReadsLoginTest extends ActivityTestCase {
 
         LoginController loginController = new LoginController(loginCallBack, createOAuthService(), userSupplier, oAuthConfig);
 
-        IToken token = loginController.fetchRequestTokenAndSecret();
+        IToken token = null;
+        try
+        {
+            token = loginController.fetchRequestTokenAndSecret();
+        }catch(HttpResponseException error)
+        {
+        }
 
         assertFalse(token == null);
         assertTrue(token.getToken().length() > 0);

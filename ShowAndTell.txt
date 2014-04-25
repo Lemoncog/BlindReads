@@ -1,0 +1,22 @@
+Points:
+
+Don't judge the design, i was also playing with Roboguice in this app.
+I think the app crashes a lot, thats by design.
+
+RestAdapter - Retrofit class. Provids you with services.
+
+- Can be configured
+- Client, does the request I am using a extended OKClient class which performs HTTP requests with some oAuth signing.
+- Server, holds url to server, simple model class.
+- Convert, turns the response into a model. Default is GSON but I'm using a SimpleXMLConverter as the server gives me XML.
+
+Services - The service the server gives, as in the endpoints.
+- The cool bit of Retrofit
+- specificy path, paramaters/queries and verb POST/GET
+- NO CODE!! WHAT?! HOW!
+- Retrofit does it for you!
+
+Service should match RESTful server api like a mirror. Its simples.
+
+-> BookController.java
+- So little code.

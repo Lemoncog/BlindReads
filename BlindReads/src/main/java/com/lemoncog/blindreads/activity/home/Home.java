@@ -41,7 +41,7 @@ public class Home extends FragmentActivity implements LoginFragmentListener {
         {
             //Always start on login fragment...
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.content_frame, new LoginFragment(this))
+                    .add(R.id.content_frame, new LoginFragment())
                     .commit();
         }
     }
